@@ -1,0 +1,9 @@
+[user]
+	name = oscar
+	email = oscariquelmejato01@gmail.com
+
+[includeIf "gitdir:~/MasOrange/**"]
+	path = organizations/mas-orange.gitconfig
+
+[includeIf "gitdir:~/youShift/**"]
+	path = organizations/you-shift.gitconfig
